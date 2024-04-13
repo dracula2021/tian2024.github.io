@@ -12,10 +12,12 @@ const withNextra = require('nextra')({
   staticImage: true,
 })
 
-/** @type {import('next').NextConfig} */
+// /** @type {import('next').NextConfig} */
 const nextConfig = {
   // next 工程本身配置内容
-  reactStrictMode: true,
+  output: 'export',
+  // reactStrictMode: true,
 }
+
 
 module.exports = withNextra(nextConfig)

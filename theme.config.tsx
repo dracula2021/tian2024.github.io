@@ -5,10 +5,10 @@ import { useRouter } from 'next/router'
 const config: DocsThemeConfig = {
   project: {
     // 右上角 Github icon 点击跳转信息
-    link: 'https://github.com/hutaod'
+    link: 'https://github.com/dracula2021/tian2024'
   },
   // 文档仓库链接
-  docsRepositoryBase: 'https://github.com/hutaod/hutaod.github.io',
+  docsRepositoryBase: 'https://github.com/dracula2021/tian2024.github.io',
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
@@ -29,7 +29,7 @@ const config: DocsThemeConfig = {
   },
   // 页面底部版权信息
   footer: {
-    text: `MIT 2023 © Hutao.`
+    text: `nothing`
   }
 }
 

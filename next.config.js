@@ -16,7 +16,7 @@ const withNextra = require('nextra')({
 const nextConfig = {
   // next 工程本身配置内容
   output: 'export',
-  // reactStrictMode: true,
+  reactStrictMode: true,
 }
 
 
